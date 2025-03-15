@@ -16,10 +16,6 @@ const appointmentSchema = new mongoose.Schema({
         type: String,  // e.g., "10:00 AM"
         required: true
     },
-    reason: {
-        type: String,
-        required: true
-    },
 
     status: {
         type: String,
